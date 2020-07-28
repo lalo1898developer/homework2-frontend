@@ -1,0 +1,10 @@
+<div style="display: block" class="mb-5 container">
+    <canvas baseChart
+        [datasets]="barChartData"
+        [labels]="barChartLabels"
+        [options]="barChartOptions"
+        [legend]="barChartLegend"
+        [chartType]="barChartType">
+    </canvas>
+    <h3>El promedio del precio de los Items es: {{ averageItems }}</h3>
+</div>
